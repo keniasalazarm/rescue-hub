@@ -1,0 +1,57 @@
+body {
+    padding: 50px;
+    font: 14px 'Lucida Grande', Helvetica, Arial, sans-serif;
+}
+
+a {
+    color: #00b7ff;
+}
+
+.titles {
+    text-align: center;
+}
+
+.map {
+    height: 400px;
+    margin-top: 5%;
+    padding: 5%;
+}
+
+.buttons-div {
+    margin-top: 2%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttons-div a {
+    width: 40%;
+    cursor: pointer;
+}
+
+.form-signin {
+    max-width: 330px;
+    padding: 15px;
+    margin: 0 auto;
+}
+
+.form-signin .form-info {
+    position: relative;
+    box-sizing: border-box;
+    height: auto;
+    padding: 10px;
+    font-size: 16px;
+}
+
+.form-info {
+    width: 100%;
+    margin-bottom: 5%;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+.login-link {
+    display: block;
+    margin-top: 5px;
+    float: right;
+    font-size: 0.9em;
+}
